@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best Web Agency In The West - Premium web design and development services in Perth">
+    <meta name="keywords" content="web design, web development, Perth, fast websites, custom design">
+    <meta name="author" content="Best Websites In Perth">
+    <meta property="og:title" content="Best Websites In Perth - Best Web Agency In The West">
+    <meta property="og:description" content="Premium web design and development services in Perth with fast delivery and custom solutions">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pwd.com">
+    <title>Best Websites In Perth - Premium Web Design & Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .smooth-transition {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-4px);
+        }
+
+        .accordion-item {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+        }
+
+        .accordion-content.active {
+            max-height: 500px;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+        }
+
+        .feature-card {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15);
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
+        }
+
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease-in-out;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header/Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md smooth-transition">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center justify-between w-full">
+                <a href="https://test-acc-12349.github.io/best-websites-in-perth-2025-10-18-bkbtk" class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">PWD</span>
+                    </div>
+                    <span class="font-bold text-xl text-gray-900 hidden sm:inline">Best Websites Perth</span>
+                </a>
+                <a href="https://test-acc-12349.github.io/best-websites-in-perth-2025-10-18-bkbtk" class="nav-link text-gray-700 font-medium hover:text-purple-600">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Post Hero Section -->
+    <section class="hero-gradient py-12 sm:py-16 lg:py-20 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-1/4 w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+            <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl"></div>
+        </div>
+
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="animate-fade-in-up">
+                <div class="inline-block mb-4">
+                    <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-semibold">Web Design Guide</span>
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+                    The Complete Guide to Web Design Trends in Perth for 2025
+                </h1>
+                <p class="text-xl sm:text-2xl text-gray-600 mb-8 leading-relaxed">
+                    Discover the latest web design trends that are transforming digital experiences and how Perth businesses can leverage them for competitive advantage.
+                </p>
+                <div class="flex items-center space-x-4 text-gray-600">
+                    <span class="text-sm">By Best Websites Perth</span>
+                    <span class="text-sm">•</span>
+                    <span class="text-sm">January 2025</span>
+                    <span class="text-sm">•</span>
+                    <span class="text-sm">8 min read</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Image -->
+    <section class="py-8 sm:py-12">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&h=675&fit=crop" alt="Modern web design workspace with computer displaying responsive website layout" class="w-full rounded-lg shadow-lg">
+        </div>
+    </section>
+
+    <!-- Blog Post Content -->
+    <section class="py-12 sm:py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <article class="prose prose-lg max-w-none">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">Introduction: The Evolution of Web Design</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    The digital landscape is evolving at an unprecedented pace. In Perth, businesses are increasingly recognizing that a well-designed website is no longer a luxury—it's a necessity. As we move through 2025, web design trends are shifting dramatically, influenced by advancements in technology, changing user behaviors, and the growing importance of digital accessibility. This comprehensive guide explores the most significant web design trends that are reshaping how Perth-based businesses connect with their audiences online.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">1. Minimalism and White Space: Less is More</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    One of the most dominant trends in 2025 is the continued embrace of minimalist design principles. Clean, uncluttered layouts are proving to be more effective than ever before. Designers are strategically using white space—or negative space—to create a sense of calm and focus the user's attention on what truly matters.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    For Perth businesses, this means moving away from cluttered homepages packed with information. Instead, successful websites are prioritizing clarity and simplicity. A minimalist approach reduces cognitive load on visitors, making it easier for them to navigate, understand your message, and take action. This trend is particularly effective for professional services, real estate, and luxury brands that want to convey sophistication and trustworthiness.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">2. Dark Mode and Color Psychology</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Dark mode has evolved from a nice-to-have feature to an essential design element. In 2025, websites that offer both light and dark mode options are seeing increased user engagement and longer session times. Dark mode reduces eye strain, particularly for users browsing at night, and it can also reduce battery consumption on mobile devices.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Beyond dark mode, color psychology continues to play a crucial role in web design. Perth businesses are leveraging specific color palettes to evoke emotions and guide user behavior. Purple and blue gradients, for instance, convey trust and innovation—colors that resonate with modern, forward-thinking brands. The key is consistency: maintaining your brand colors throughout the website while considering how different colors impact user perception and conversion rates.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">3. Responsive and Mobile-First Design</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    With over 60% of web traffic coming from mobile devices, mobile-first design is no longer optional—it's mandatory. In 2025, the most successful websites are designed with mobile users as the primary audience, then scaled up for larger screens. This approach ensures that every element is optimized for touch interaction, readability, and fast loading times on mobile networks.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    For Perth businesses targeting local customers, responsive design is critical. Your website must function flawlessly across all devices, from smartphones to tablets to desktop computers. This includes fast loading times, intuitive navigation, and clear call-to-action buttons that are easy to tap on mobile devices. Google's mobile-first indexing means that your mobile site performance directly impacts your search engine rankings.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">4. Interactive Elements and Micro-Interactions</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Static websites are becoming a thing of the past. In 2025, interactive elements and micro-interactions are creating more engaging user experiences. Micro-interactions—subtle animations and feedback mechanisms that respond to user actions—are proving to be highly effective at guiding users through your website and improving overall satisfaction.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Examples include hover effects on buttons, smooth scrolling animations, loading indicators, and form validation feedback. These small touches create a sense of responsiveness and polish that makes your website feel more modern and professional. For Perth web designers, incorporating these elements strategically can significantly improve user engagement and conversion rates without overwhelming the user experience.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">5. Accessibility and Inclusive Design</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Web accessibility has become increasingly important in 2025. Inclusive design ensures that your website is usable by everyone, regardless of their abilities or disabilities. This includes considerations for users with visual impairments, hearing difficulties, motor challenges, and cognitive disabilities.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Key accessibility features include proper heading hierarchy, alt text for images, keyboard navigation support, sufficient color contrast, and readable fonts. Beyond being the right thing to do ethically, accessible websites also perform better in search rankings and reach a wider audience. For Perth businesses, investing in accessible design is an investment in reaching more potential customers while demonstrating your commitment to inclusivity.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">6. Personalization and Dynamic Content</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Personalization is revolutionizing web design in 2025. Websites are increasingly using data and artificial intelligence to deliver personalized experiences to individual users. This might include personalized product recommendations, dynamic content that changes based on user behavior, or customized landing pages for different audience segments.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    For Perth e-commerce and service-based businesses, personalization can dramatically improve conversion rates. When users feel that a website understands their needs and preferences, they're more likely to engage and make a purchase. This trend requires careful attention to privacy and data security, but the benefits in terms of user experience and business results are substantial.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">7. Video Integration and Multimedia Content</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Video content continues to dominate web design in 2025. Websites that incorporate video—whether it's hero videos, product demonstrations, or customer testimonials—are seeing higher engagement rates and longer time-on-site metrics. Video is particularly effective at communicating complex information quickly and emotionally engaging viewers.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Beyond video, multimedia content like interactive infographics, animations, and 3D elements are becoming more common. For Perth businesses, incorporating high-quality multimedia content can set you apart from competitors and create a more memorable brand experience. However, it's crucial to optimize video and media files for web performance to ensure fast loading times.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">8. Typography and Font Choices</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Typography has become a major design element in 2025. Bold, large typography is being used to create visual hierarchy and make statements. Variable fonts—fonts that can adapt their weight, width, and other properties—are providing designers with more flexibility and better performance.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    For Perth websites, choosing the right typography is essential for readability and brand identity. Clean, modern fonts like Inter, Poppins, and system fonts are popular choices that work well across different devices and browsers. The key is ensuring that your typography supports your brand identity while maintaining excellent readability at all sizes.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">9. Performance Optimization and Core Web Vitals</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Website performance is more critical than ever in 2025. Google's Core Web Vitals—metrics measuring loading performance, interactivity, and visual stability—are now ranking factors. Websites that load quickly and provide smooth interactions rank higher in search results and see better user engagement.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    For Perth businesses, optimizing your website's performance is essential for SEO success. This includes minimizing file sizes, leveraging browser caching, using content delivery networks (CDNs), and optimizing images. A fast-loading website not only ranks better but also provides a better user experience, leading to higher conversion rates.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">10. Sustainable Web Design</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    Sustainability is becoming increasingly important in web design. Sustainable web design focuses on reducing the environmental impact of websites by minimizing energy consumption, optimizing code, and choosing green hosting providers. This trend reflects growing consumer concern about environmental issues.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    For Perth businesses, adopting sustainable web design practices demonstrates environmental responsibility and can resonate with eco-conscious customers. This includes using efficient hosting, optimizing images and code, and designing for longevity rather than constant redesigns.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">How Best Websites Perth Can Help</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    At Best Websites Perth, we specialize in creating modern, high-performing websites that incorporate these latest design trends. Our team understands the unique needs of Perth businesses and creates custom solutions that drive results. Whether you're looking to redesign your existing website or build something entirely new, we combine cutting-edge design trends with proven business strategies to create websites that convert.
+                </p>
+
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-8">Conclusion: The Future of Web Design</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    The web design landscape in 2025 is more dynamic and sophisticated than ever before. From minimalist design and dark mode to personalization and sustainable practices, the trends shaping web design reflect a deeper understanding of user needs and business objectives. For Perth businesses, staying current with these trends is essential for remaining competitive and delivering exceptional digital experiences.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    The key to success is not blindly following every trend, but thoughtfully selecting and implementing the trends that align with your brand identity and business goals. Whether you're a small local business or a larger enterprise, investing in modern web design is investing in your future growth and success.
+                </p>
+
+                <div class="bg-gradient-to-br from-purple-50 to-blue-50 p-8 rounded-xl border border-purple-200 mt-12">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ready to Modernize Your Website?</h3>
+                    <p class="text-lg text-gray-700 mb-6">
+                        Our team at Best Websites Perth is ready to help you implement these latest design trends and create a website that drives results. Contact us today for a free consultation.
+                    </p>
+                    <a href="https://pwd.com" class="cta-button inline-block px-8 py-3 text-white rounded-lg font-bold text-lg hover-lift">
+                        Get Started Today
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Related Articles Section -->
+    <section class="py-16 sm:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Related Articles</h2>
+                <p class="text-lg text-gray-600">
+                    Explore more insights about web design and development
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="mb-4">
+                        <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-semibold">Web Development</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Why Your Perth Business Needs a Fast Website</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Speed is a critical factor in user experience and SEO rankings. Learn why fast websites convert better.
+                    </p>
+                    <a href="#" class="text-purple-600 font-semibold hover:text-purple-700 smooth-transition">Read More →</a>
+                </div>
+
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="mb-4">
+                        <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold">SEO Tips</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">SEO Best Practices for Local Perth Businesses</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Discover how to optimize your website for local search and attract more customers in Perth.
+                    </p>
+                    <a href="#" class="text-purple-600 font-semibold hover:text-purple-700 smooth-transition">Read More →</a>
+                </div>
+
+                <div class="feature-card bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                    <div class="mb-4">
+                        <span class="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-semibold">Design Strategy</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">The Psychology of Color in Web Design</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Understanding how colors influence user behavior and conversion rates on your website.
+                    </p>
+                    <a href="#" class="text-purple-600 font-semibold hover:text-purple-700 smooth-transition">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 sm:py-24 relative overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=400&fit=crop" alt="Professional workspace" class="w-full h-full object-cover opacity-20">
+            <div class="absolute inset-0 bg-gradient-to-r from-purple-900 to-blue-900 opacity-85"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+                    Ready to Transform Your Online Presence?
+                </h2>
+                <p class="text-lg sm:text-xl text-gray-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+                    Join hundreds of businesses that have already partnered with us to create stunning, high-performing websites.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://pwd.com" class="cta-button px-8 py-4 text-white rounded-lg font-bold text-lg inline-block hover-lift">
+                        Get Started Today
+                    </a>
+                    <a href="mailto:admin@pwd.com" class="px-8 py-4 border-2 border-white text-white rounded-lg font-bold text-lg inline-block smooth-transition hover:bg-white hover:text-purple-900">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 sm:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <!-- Footer Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">PWD</span>
+                        </div>
+                        <span class="font-bold text-white">Best Websites Perth</span>
+                    </div>
+                    <p class="text-sm leading-relaxed">
+                        Premium web design and development services for businesses in Perth and beyond.
+                    </p>
+                </div>
+
+                <!-- Footer Links 1 -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#features" class="smooth-transition hover:text-white">Web Design</a></li>
+                        <li><a href="#features" class="smooth-transition hover:text-white">Web Development</a></li>
+                        <li><a href="#benefits" class="smooth-transition hover:text-white">Hosting</a></li>
+                        <li><a href="#faq" class="smooth-transition hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Links 2 -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="smooth-transition hover:text-white">About Us</a></li>
+                        <li><a href="#" class="smooth-transition hover:text-white">Blog</a></li>
+                        <li><a href="#" class="smooth-transition hover:text-white">Careers</a></li>
+                        <li><a href="#" class="smooth-transition hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Links 3 -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Legal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="smooth-transition hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="smooth-transition hover:text-white">Terms of Service</a></li>
+                        <li><a href="#" class="smooth-transition hover:text-white">Cookie Policy</a></li>
+                        <li><a href="#" class="smooth-transition hover:text-white">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-sm text-gray-400">
+                    &copy; 2024 Best Websites In Perth. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white smooth-transition" aria-label="Facebook">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white smooth-transition" aria-label="Twitter">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417a9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white smooth-transition" aria-label="LinkedIn">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Accordion functionality
+        document.querySelectorAll('.accordion-toggle').forEach(button => {
+            button.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const isActive = content.classList.contains('active');
+                
+                // Close all other accordions
+                document.querySelectorAll('.accordion-content').forEach(item => {
+                    item.classList.remove('active');
+                });
+                document.querySelectorAll('.accordion-toggle').forEach(btn => {
+                    btn.setAttribute('aria-expanded', 'false');
+                });
+                
+                // Toggle current accordion
+                if (!isActive) {
+                    content.classList.add('active');
+                    this.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+
+        // Form submission handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+            
+            // Create mailto link
+            const email = 'admin@pwd.com';
+            const subject = formData.get('subject');
+            const name = formData.get('name');
+            const senderEmail = formData.get('email');
+            const message = formData.get('message');
+            
+            const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${senderEmail}\n\n${message}`)}`;
+            
+            window.location.href = mailtoLink;
+            
+            // Reset form
+            form.reset();
+            
+            // Show success message
+            alert('Thank you for your message! We will get back to you soon.');
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        document.querySelector('button[aria-label="Toggle menu"]')?.addEventListener('click', function() {
+            // Add mobile menu functionality here if needed
+            console.log('Mobile menu toggled');
+        });
+    </script>
+</body>
+</html>
